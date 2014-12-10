@@ -77,6 +77,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Document.cpp" />
+    <ClCompile Include="findForm.cpp" />
     <ClCompile Include="HCEditorForm.cpp" />
     <ClCompile Include="MyForm.cpp" />
     <ClCompile Include="Source.cpp" />
@@ -86,12 +87,18 @@
     <ClInclude Include="Context.h" />
     <ClInclude Include="DisplayManager.h" />
     <ClInclude Include="Document.h" />
+    <ClInclude Include="findForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="HCEditorForm.h" />
     <ClInclude Include="MyForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="findForm.resx">
+      <DependentUpon>findForm.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MyForm.resx">
       <DependentUpon>MyForm.h</DependentUpon>
     </EmbeddedResource>

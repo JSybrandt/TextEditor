@@ -1,27 +1,28 @@
-﻿Build started 12/9/2014 4:08:37 PM.
-     1>Project "C:\Users\SybrandtJG1\Desktop\PROGRAM 5\Program5\Program5\Program5.vcxproj" on node 2 (Build target(s)).
+﻿Build started 12/9/2014 7:19:55 PM.
+     1>Project "C:\PROJECTS\TextEditor\Program5\Program5\Program5.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib HCEditorForm.cpp MyForm.cpp Source.cpp
          HCEditorForm.cpp
-     1>HCEditorForm.cpp(50): warning C4244: '+=' : conversion from 'const float' to 'int', possible loss of data
-     1>HCEditorForm.cpp(66): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>HCEditorForm.cpp(51): warning C4244: '+=' : conversion from 'const float' to 'int', possible loss of data
      1>HCEditorForm.cpp(67): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>HCEditorForm.cpp(68): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
          MyForm.cpp
          Source.cpp
          Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\SybrandtJG1\Desktop\PROGRAM 5\Program5\Debug\Program5.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\Program5.MyForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\SybrandtJG1\Desktop\PROGRAM 5\Program5\Debug\Program5.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\Document.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\PROJECTS\TextEditor\Program5\Debug\Program5.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\Program5.findForm.resources /ASSEMBLYRESOURCE:Debug\Program5.MyForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\PROJECTS\TextEditor\Program5\Debug\Program5.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\Document.obj
+         Debug\findForm.obj
          Debug\HCEditorForm.obj
          Debug\MyForm.obj
          Debug\Source.obj
          "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
          Change.obj
          DisplayManager.obj
-     1>DisplayManager.obj : warning LNK4099: PDB 'vc110.pdb' was not found with 'DisplayManager.obj' or at 'C:\Users\SybrandtJG1\Desktop\PROGRAM 5\Program5\Debug\vc110.pdb'; linking object as if no debug info
-     1>Change.obj : warning LNK4099: PDB 'vc110.pdb' was not found with 'Change.obj' or at 'C:\Users\SybrandtJG1\Desktop\PROGRAM 5\Program5\Debug\vc110.pdb'; linking object as if no debug info
-         Program5.vcxproj -> C:\Users\SybrandtJG1\Desktop\PROGRAM 5\Program5\Debug\Program5.exe
-     1>Done Building Project "C:\Users\SybrandtJG1\Desktop\PROGRAM 5\Program5\Program5\Program5.vcxproj" (Build target(s)).
+     1>DisplayManager.obj : warning LNK4099: PDB 'vc110.pdb' was not found with 'DisplayManager.obj' or at 'C:\PROJECTS\TextEditor\Program5\Debug\vc110.pdb'; linking object as if no debug info
+     1>Change.obj : warning LNK4099: PDB 'vc110.pdb' was not found with 'Change.obj' or at 'C:\PROJECTS\TextEditor\Program5\Debug\vc110.pdb'; linking object as if no debug info
+         Program5.vcxproj -> C:\PROJECTS\TextEditor\Program5\Debug\Program5.exe
+     1>Done Building Project "C:\PROJECTS\TextEditor\Program5\Program5\Program5.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.92
+Time Elapsed 00:00:03.83

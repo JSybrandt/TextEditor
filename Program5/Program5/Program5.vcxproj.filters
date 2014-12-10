@@ -27,6 +27,9 @@
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="findForm.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyForm.h">
@@ -47,9 +50,17 @@
     <ClInclude Include="HCEditorForm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="findForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Object Include="Change.obj" />
     <Object Include="DisplayManager.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MyForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

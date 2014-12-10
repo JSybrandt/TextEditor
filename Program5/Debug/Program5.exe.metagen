@@ -1,3 +1,4 @@
+  Program5.findForm.resources - Embedded, ContainedInManifestFile, 
   Program5.MyForm.resources - Embedded, ContainedInManifestFile, 
 ImageRuntimeVersion: v4.0.30319
 Assembly Program5, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
@@ -14,6 +15,14 @@ Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=
 	hash=None, flags=None
 Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
 	hash=None, flags=None
+Class Program5.findForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getFindText(): PrivateScope, Public, HideBySig
+    getReplaceText(): PrivateScope, Public, HideBySig
+    setFind(): PrivateScope, Public, HideBySig
+    setReplace(): PrivateScope, Public, HideBySig
 Class Program5.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

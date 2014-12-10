@@ -33,14 +33,14 @@ namespace Program5 {
         void onLoad(Object^  sender, EventArgs^  e);
         void onPaint(Object^  sender, PaintEventArgs^  e);
         void onSizeChanged(Object^  sender, EventArgs^  e);
-        //void onKeyPress(Object^  sender, KeyPressEventArgs^  e);
-        //void onKeyDown(Object^  sender, KeyEventArgs^  e);
-        //void onMouseDown(Object^  sender, MouseEventArgs^  e);
-        //void onFind(Object^  sender, System::EventArgs^  e);
-        //void onReplace(Object^  sender, EventArgs^  e);
-        //void onFileNew(Object^  sender, EventArgs^  e);
-        //void onFileOpen(Object^  sender, EventArgs^  e);
-        //void onSaveAs(Object^ sender, EventArgs^ e);
+		void onKeyPress(Object^  sender, KeyPressEventArgs^  e);
+        void onKeyDown(Object^  sender, KeyEventArgs^  e);
+        void onMouseDown(Object^  sender, MouseEventArgs^  e);
+        void onFind(Object^  sender, System::EventArgs^  e);
+        void onReplace(Object^  sender, EventArgs^  e);
+		void onFileNew(Object^  sender, EventArgs^  e);
+        void onFileOpen(Object^  sender, EventArgs^  e);
+        void onSaveAs(Object^ sender, EventArgs^ e);
     private:
         bool loaded;
         Document &d;
@@ -56,6 +56,9 @@ namespace Program5 {
         static const float fontSize = 12.0f;
         static const int LEFT = 2, TCLEFT = LEFT+2, TOP = 10;
         GeneratedForm^ form;
+
+		bool isPrintable(wchar_t c);
+		void HCEditorForm::MarshalString ( String ^ s, string& os );
     };
 }
 
